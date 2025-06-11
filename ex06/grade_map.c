@@ -6,7 +6,7 @@
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/11 22:02:04 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/11 23:06:16 by igilani          ###   ########.fr       */
+/*   Updated: 2025/06/11 23:40:23 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ const char *standard_mapper(int score) {
     else return "F";
 }
 
-void map_scores(const int *scores, int size, GradeMapper mapper, const char *mapped_grades)
+void map_scores(const int *scores, int size, GradeMapper mapper, const char **mapped_grades)
 {
 	for (int i = 0; i < size; i++)
 	{
@@ -49,10 +49,17 @@ void map_scores(const int *scores, int size, GradeMapper mapper, const char *map
 	}
 }
 
-int main()
-{
-	int scores[] = {85, 92, 70, 60, 55};
-	const char mapped[5];
+// int main()
+// {
+// 	int scores[] = {85, 92, 70, 60, 55};
+// 	const char *mapped[5];
+//     int i = 0;
 
-	map_scores(scores, 5, plusminus_mapper, mapped);
-}
+// 	map_scores(scores, 5, plusminus_mapper, mapped);
+    
+//     while (i < 5)
+//     {
+//         printf("%s\n", mapped[i]);
+//         i++;
+//     }
+// }

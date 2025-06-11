@@ -6,7 +6,7 @@
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/11 22:02:16 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/11 22:40:22 by igilani          ###   ########.fr       */
+/*   Updated: 2025/06/11 23:37:48 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@
 
 typedef const char *(*GradeMapper)(int score);
 
-void map_scores(const int *scores, int size, GradeMapper mapper, const char *mapped_grades);
+void map_scores(const int *scores, int size, GradeMapper mapper, const char **mapped_grades);
 
 # endif
