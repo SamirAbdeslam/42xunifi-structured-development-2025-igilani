@@ -6,7 +6,7 @@
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/11 17:01:03 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/11 18:38:30 by igilani          ###   ########.fr       */
+/*   Updated: 2025/06/11 22:38:53 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ static int parsing_value(const int *readings, int size)
 	{
 		if (readings[i] > 150)
 			return(1);
-		if (readings[i] < 70 && count == 3)
+		if (readings[i] < 70)
 			count++;
 		i++;
 	}

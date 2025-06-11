@@ -1,34 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filesystem.h                                       :+:      :+:    :+:   */
+/*   grade_map.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/11 18:32:57 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/11 21:20:46 by igilani          ###   ########.fr       */
+/*   Created: 2025/06/11 22:02:16 by igilani           #+#    #+#             */
+/*   Updated: 2025/06/11 22:40:22 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILESYSTEM_H
-#define FILESYSTEM_H
+# ifndef GRADE_MAP_H
+# define GRADE_MAP_H
 
-#include <string.h>
+# include <string.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
 
-typedef struct FSNode {
-	char *name;
-	int size;
-	struct FSNode *child;
-	struct FSNode *next_sibling;
-} FSNode;
+typedef const char *(*GradeMapper)(int score);
 
-void add_child(FSNode *parent, FSNode *child);
-FSNode *create_file(const char *name, int size);
-FSNode *create_folder(const char *name);
-FSNode *get_children(const FSNode *parent);
-FSNode *get_sibling(const FSNode *node);
+void map_scores(const int *scores, int size, GradeMapper mapper, const char *mapped_grades);
 
-#endif
+# endif
