@@ -6,7 +6,7 @@
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 13:45:46 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/10 14:04:22 by igilani          ###   ########.fr       */
+/*   Updated: 2025/06/11 17:57:32 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ float average(const int *arr, int size)
 
 	while (i < size)
 	{
-		printf("%d\n", arr[i]);
 		if (arr[i] >= 0 && arr[i] <= 100)
 		{
 			sum += arr[i];

@@ -6,7 +6,7 @@
 /*   By: igilani <igilani@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 22:25:55 by igilani           #+#    #+#             */
-/*   Updated: 2025/06/11 02:27:38 by igilani          ###   ########.fr       */
+/*   Updated: 2025/06/11 17:00:25 by igilani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int count_segments(const int *arr, int size) {
 		j = start + 1;
 		while (j < end)
 		{
-			if (arr[j] > arr[j - 1]) 
+			if (arr[j] > arr[j - 1])
 			{
 				len++;
 				if (len >= 3) {
@@ -51,7 +51,7 @@ int count_segments(const int *arr, int size) {
 }
 
 // int main() {
-// 	int array[] = {2, 3, 4, -1, 5, 6, 7, -1, 1, 2, 3, 4};
+// 	int array[] = {3, 2, 4, -1, 5, 6, 7, -1, 1, 2, 3, 4};
 // 	int size = sizeof(array) / sizeof(array[0]);
 
 // 	printf("%d\n", count_segments(array, size));
