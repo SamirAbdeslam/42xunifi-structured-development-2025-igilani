@@ -1,0 +1,62 @@
+0, Zero ID, Test Author
+1, The C Programming Language, Brian W. Kernighan
+2, Clean Code, Robert C. Martin
+3, Introduction to Algorithms, Thomas H. Cormen
+, Missing ID, No Author
+4,   Modern Operating Systems  , Andrew S. Tanenbaum
+5,Computer Networking: A Top-Down Approach,Kurose & Ross
+6,  , Anonymous
+7, The Pragmatic Programmer,  Andrew Hunt
+8, Design Patterns, Erich Gamma
+9, C Programming Absolute Beginner's Guide, Greg Perry
+10,The Mythical Man-Month,Frederick P. Brooks Jr.
+11,Refactoring: Improving the Design of Existing Code,Martin Fowler
+This line is totally wrong
+12, Structure and Interpretation of Computer Programs, Harold Abelson
+13, Code Complete, Steve McConnell
+14, The Art of Computer Programming, Donald E. Knuth
+abc, Invalid ID Number, Some Author
+15,    The Cathedral and the Bazaar   ,   Eric S. Raymond   
+16, You Don't Know JS, Kyle Simpson
+17,, Missing Title
+18, Effective C++, Scott Meyers
+, , Both ID and Title Missing
+19, The Clean Coder, Robert C. Martin
+20,Design Patterns Elements of Reusable Object-Oriented Software,Gang of Four
+21,   ,    
+No commas at all in this line
+22, Head First Design Patterns, Eric Freeman
+-5, Negative ID, Bad Author
+23, Cracking the Coding Interview, Gayle Laakmann McDowell
+24, The Algorithm Design Manual, Steven S. Skiena
+25, Compilers Principles Techniques and Tools, Alfred V. Aho
+26, Working Effectively with Legacy Code, Michael Feathers
+27, The Phoenix Project, Gene Kim
+Too,Many,Commas,In,This,Line
+28, Building Microservices, Sam Newman
+29, The DevOps Handbook, Gene Kim
+30, Site Reliability Engineering, Niall Richard Murphy
+31, Kubernetes in Action, Marko Luksa
+32, Docker Deep Dive, Nigel Poulton
+33, The Go Programming Language, Alan Donovan
+, , Empty fields everywhere
+34, Python Crash Course, Eric Matthes
+35, Automate the Boring Stuff with Python, Al Sweigart
+36,,,
+37, JavaScript: The Good Parts, Douglas Crockford
+38, Eloquent JavaScript, Marijn Haverbeke
+39, Learning React, Alex Banks
+Just text without any structure
+40, Node.js in Action, Mike Cantelon
+41, Express in Action, Evan Hahn
+42, MongoDB: The Definitive Guide, Kristina Chodorow
+43, Redis in Action, Josiah Carlson
+xyz, Another Invalid ID, Random Author
+44, The Art of Unit Testing, Roy Osherove
+45, Test Driven Development, Kent Beck
+46, Continuous Delivery, Jez Humble
+47, The Lean Startup, Eric Ries
+999999999999999999999, ID Too Large, Some Author
+48, Scrum: The Art of Doing Twice the Work in Half the Time, Jeff Sutherland
+49, The Agile Samurai, Jonathan Rasmusson
+50, Git Pro, Scott Chacon
